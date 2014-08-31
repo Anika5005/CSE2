@@ -1,6 +1,5 @@
 /////////////////////////////////////////////////////////////
-//Brian Chen
-//Demo 0
+//Anika Chakravarti
 //Welcome Class Java Program
 //
 //  first compile the program
