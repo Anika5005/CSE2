@@ -8,6 +8,7 @@
 //  Calculate the cost per BigMac
 //  Calculate the percentage tax (6% in PA, 8% in MA)
 //  Compute total cost
+//  Import scanner
 
     import java.util.Scanner; //imports myScanner into java program
     
