@@ -23,8 +23,8 @@ public class Root{
         System.out.print ("Enter a value for a variable x: "); //x will be a double
         double x  = myScanner.nextDouble ( ) ; //tells the myScanner object to accept a double
         
-        //
-        double xGuessOne = x/3; //calculates first guess for the cube root of x 
+        //my program will guess the cube root of a number x and will improve this guess over several further guesses
+        double xGuessOne = x/3; //calculates first guess for the cube root of x; this is the starting guess
         double xGuessTwo = (xGuessOne*xGuessOne*xGuessOne+x)/(3*xGuessOne*xGuessOne); //calculates second guess for the cube root of x
         double xGuessThree = (2*xGuessOne*xGuessOne*xGuessOne+x)/(6*xGuessOne*xGuessOne);   //third guess for cube root of x
         double xGuessFour = (3*xGuessOne*xGuessOne*xGuessOne+x)/(9*xGuessOne*xGuessOne);   //fourth guess for cube root of x
@@ -38,12 +38,11 @@ public class Root{
         System.out.println ("The cube root of x is " + xGuessFive);
         
         //different estimations for the cube of each guess
-        
-        double xGuessOneCubed = xGuessOne*xGuessOne*xGuessOne;
+        double xGuessOneCubed = xGuessOne*xGuessOne*xGuessOne; //guess one is the least accurate guess
         double xGuessTwoCubed = xGuessTwo*xGuessTwo*xGuessTwo;
         double xGuessThreeCubed = xGuessThree*xGuessThree*xGuessThree;
         double xGUessFourCubed = xGuessFour*xGuessFour*xGuessFour;
-        double xGuessFiveCubed = xGuessFive*xGuessFive*xGuessFive; //Guess five is the most accurate guess
+        double xGuessFiveCubed = xGuessFive*xGuessFive*xGuessFive; //Guess five is the most accurate guess - to be used in final print out
         
         System.out.println ("The cube root of x, cubed, is " + xGuessFiveCubed + 
         " : 3.0277777777*3.0277777777*3.0277777777" );  //guess five cubed
