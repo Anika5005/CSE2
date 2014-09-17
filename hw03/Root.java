@@ -39,7 +39,7 @@ public class Root{
         
         //different estimations for the cube of each guess
         double xGuessOneCubed = xGuessOne*xGuessOne*xGuessOne; //guess one is the least accurate guess
-        double xGuessTwoCubed = xGuessTwo*xGuessTwo*xGuessTwo;
+        double xGuessTwoCubed = xGuessTwo*xGuessTwo*xGuessTwo;  //xGuessTwo multiplied by itself 3 times will give xgGuessTwo cubed
         double xGuessThreeCubed = xGuessThree*xGuessThree*xGuessThree;
         double xGUessFourCubed = xGuessFour*xGuessFour*xGuessFour;
         double xGuessFiveCubed = xGuessFive*xGuessFive*xGuessFive; //Guess five is the most accurate guess - to be used in final print out
