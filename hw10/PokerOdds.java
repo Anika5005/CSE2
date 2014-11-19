@@ -352,6 +352,38 @@ public class PokerOdds{ //being public class
                     noPairs++;
                 }
                 
+                else if (counter5a > 2) {
+                    noPairs++;
+                }
+                
+                else if (counter6a > 2) {
+                    noPairs++;
+                }
+                
+                else if (counter7a > 2) {
+                    noPairs++;
+                }
+                
+                else if (counter8a > 2) {
+                    noPairs++;
+                }
+                
+                else if (counter9a > 2) {
+                    noPairs++;
+                }
+                
+                if (counter10a > 2) {
+                    noPairs++;
+                }
+                
+                else if (counter11a > 2) {
+                    noPairs++;
+                }
+                
+                else if (counter12a > 2) {
+                    noPairs++;
+                }
+             
             } //end inner for loop
             
             //reset values of initial counters to zero 
